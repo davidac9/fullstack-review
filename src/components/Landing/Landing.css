@@ -1,0 +1,50 @@
+.Landing {
+    display: flex;
+    /* background: blue; */
+    min-height: 100%;
+}
+
+
+.Landing .right,
+.Landing .left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: Calc(100vh - 60px)
+}
+
+.Landing .logo {
+    /* font */
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(closest-side, #ebf8ee, #6ac87a);
+    font-size: 8rem;
+}
+
+.Landing .logo div {
+    position: relative;
+    bottom: 5px;
+}
+
+.Landing .inputs-container {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 60%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+
+}
+
+.Landing input {
+    font-size: .8rem;
+}
